@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    overflow-x:hidden ;
+
+}
+.header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 6vh;
+    
+}
+.sec-1{
+    display: flex;
+    
+    width: 100%;
+    height: 90px;
+    background-color: #018a3f;
+    
+    position: fixed;
+}  nav{position: fixed;
+    top: 0;
+    
+    left: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top:1px;
+ } .logo{
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        margin-left: 1.2cm;
+        margin-top: 23px;
+    }nav ul{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 1000;
+        margin-top: 1cm;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 10px 20;
+        margin-left: 20px;
+        
+    }nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 0 10px;
+        position: relative;
+        
+}nav a:hover{
+    color: rgb(2, 2, 2);
+}
+    
+
+nav li a:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom:-34px;
+    }
+a:hover:after
+{
+    width: 100%;
+} nav div {
+margin-left:7cm;
+color: white;
+}.fab div{display: flex;
+    margin-left: 5.5cm;
+    margin-top: -22px;
+}nav i{
+    margin-left: 13px;
+    font-size: 20px;
+    
+}.fab{
+margin-top: 11px;
+}
+nav div i:hover{
+    color: black;
+}.logo-2{
+    width: 330px;
+    height: 70px;
+    margin-top: 4.5cm;
+    
+
+}
+.sec-2{
+    background-color: black;
+    height: 15.5cm;
+    
+}
+.sec-2 h1{
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: -1px;
+color: white;
+}.sec-2 div{
+    margin-left: 1.5cm;
+    
+}.sec-2 p{
+    border: 1px black;
+    height: 10px;
+    width: 130px;
+    background-color: rgb(214, 214, 2);
+    margin-top: 70PX;
+}.bx{
+ display: flex;
+ padding-top: 16px;
+ padding-left: 40px;
+ padding-bottom: 20PX;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bolder;
+}.sec-2 p:hover{
+    background-color: black;
+}.bx:hover{
+    color: white;
+}.head-img img{
+    height: 497px;
+    width: 650px;
+    margin-top: -465px;
+    margin-left: 15.48cm;
+}.sec-3{
+   height: 440px; 
+   margin-top: 1.1cm;
+   margin-left: 3cm;
+}.box-2 iframe{
+    height: 270px;
+    width: 450px;
+
+}.box-2 h1{
+    display: flex;
+    margin-left: 13.6cm;
+    margin-top: -280px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: -1.5px;
+font-weight: 1000;
+}.box-2 p{
+    margin-left: 13.6cm;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: -1.2px;
+  font-weight: 1000;
+
+}.bx-1
+{
+    margin-left: 13.6cm;
+    margin-top: 2cm;
+    
+    background-color: rgb(214, 214, 2);
+    height: 35px;
+    width: 150px;
+}.bx-1 p{
+    margin-left: 34px;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: -1.1px;
+}.bx-1:hover{
+    background-color: gray;
+}.sec-4{
+    margin-left: 2.8cm;
+    height: 330px;
+}
+.box-3 h1{
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -1.2px; 
+    font-weight: 1000;
+    margin-top: 2.6cm;
+    line-height: 75px;
+    color: #018a3f;
+}.btl img{
+    margin-left: 16.5cm;
+    margin-top: -366px;
+}.sec-5{
+background-color: #018a3f;
+height: 420px;
+   
+  width: 100%;
+  
+}.sec-5 img{
+    height: 50px;
+    width: 130px;
+    margin-left: 5.3cm;
+    margin-top: 2.7cm;
+}.n{margin-left: 12.2cm;
+    letter-spacing: -1px;
+    margin-top: -2.5cm;
+    color: white;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.n1{font-size: 25px;
+    margin-top: 1cm;
+    color: white;
+     margin-left: 12cm;
+     
+}.n1 i:hover{
+transition: 0.7s;
+    transform: scale(1.35);
+    
+}.nl{
+    margin-left: 22cm;
+    margin-top: -2.5cm;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+}.nl-1 {
+    margin-left:22cm ;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-right: 3cm;
+     }
+.nl-1 p:hover{
+    color: black;
+}.lst h4 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 13.5cm;
+}.lst div h4{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-left: 6.5cm;
+    margin-top: 5px;
+} .lst{
+    margin-top: 2cm;
+} .lst div h4 a:hover{
+    color: black;
+}
